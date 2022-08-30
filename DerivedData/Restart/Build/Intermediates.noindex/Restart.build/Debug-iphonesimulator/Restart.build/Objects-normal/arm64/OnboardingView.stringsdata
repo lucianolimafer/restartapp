@@ -1,0 +1,16 @@
+{
+  "source": "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/OnboardingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Onboarding screen"
+      },
+      {
+        "comment": "",
+        "key": "Start"
+      }
+    ]
+  },
+  "version": 1
+}

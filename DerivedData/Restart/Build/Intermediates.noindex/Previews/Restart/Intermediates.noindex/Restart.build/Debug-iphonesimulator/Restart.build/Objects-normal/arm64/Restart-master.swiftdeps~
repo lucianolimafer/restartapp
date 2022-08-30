@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "1f9836559ceb6bc0a3e4cce06e042457fedbe7baf637eecaa37eeb0032a1779c"
+build_start_time: [1661896240, 806243896]
+build_end_time: [1661896243, 971812009]
+inputs:
+  "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/ContentView.swift": [1661896223, 696074008]
+  "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/RestartApp.swift": [1661896223, 693375110]

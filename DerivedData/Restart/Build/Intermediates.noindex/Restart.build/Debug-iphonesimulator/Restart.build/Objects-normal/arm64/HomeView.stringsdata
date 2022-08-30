@@ -1,0 +1,16 @@
+{
+  "source": "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Home"
+      },
+      {
+        "comment": "",
+        "key": "Restart"
+      }
+    ]
+  },
+  "version": 1
+}
