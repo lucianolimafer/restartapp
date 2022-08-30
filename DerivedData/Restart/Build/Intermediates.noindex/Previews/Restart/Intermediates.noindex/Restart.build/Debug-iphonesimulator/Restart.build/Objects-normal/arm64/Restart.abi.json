@@ -598,6 +598,273 @@
       "children": [
         {
           "kind": "Var",
+          "name": "isOnboardingViewActive",
+          "printedName": "isOnboardingViewActive",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart8HomeViewV012isOnboardingC6ActiveSbvp",
+          "mangledName": "$s7Restart8HomeViewV012isOnboardingC6ActiveSbvp",
+          "moduleName": "Restart",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "Custom",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV012isOnboardingC6ActiveSbvg",
+              "mangledName": "$s7Restart8HomeViewV012isOnboardingC6ActiveSbvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV012isOnboardingC6ActiveSbvs",
+              "mangledName": "$s7Restart8HomeViewV012isOnboardingC6ActiveSbvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV012isOnboardingC6ActiveSbvM",
+              "mangledName": "$s7Restart8HomeViewV012isOnboardingC6ActiveSbvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$isOnboardingViewActive",
+          "printedName": "$isOnboardingViewActive",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart8HomeViewV013$isOnboardingC6Active7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s7Restart8HomeViewV013$isOnboardingC6Active7SwiftUI7BindingVySbGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV013$isOnboardingC6Active7SwiftUI7BindingVySbGvg",
+              "mangledName": "$s7Restart8HomeViewV013$isOnboardingC6Active7SwiftUI7BindingVySbGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_isOnboardingViewActive",
+          "printedName": "_isOnboardingViewActive",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppStorage",
+              "printedName": "SwiftUI.AppStorage<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI10AppStorageV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart8HomeViewV013_isOnboardingC6Active33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI10AppStorageVySbGvp",
+          "mangledName": "$s7Restart8HomeViewV013_isOnboardingC6Active33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI10AppStorageVySbGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppStorage",
+                  "printedName": "SwiftUI.AppStorage<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI10AppStorageV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV013_isOnboardingC6Active33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI10AppStorageVySbGvg",
+              "mangledName": "$s7Restart8HomeViewV013_isOnboardingC6Active33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI10AppStorageVySbGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppStorage",
+                  "printedName": "SwiftUI.AppStorage<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI10AppStorageV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV013_isOnboardingC6Active33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI10AppStorageVySbGvs",
+              "mangledName": "$s7Restart8HomeViewV013_isOnboardingC6Active33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI10AppStorageVySbGvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV013_isOnboardingC6Active33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI10AppStorageVySbGvM",
+              "mangledName": "$s7Restart8HomeViewV013_isOnboardingC6Active33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI10AppStorageVySbGvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [
@@ -653,6 +920,35 @@
               "accessorKind": "get"
             }
           ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(isOnboardingViewActive:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HomeView",
+              "printedName": "Restart.HomeView",
+              "usr": "s:7Restart8HomeViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "hasDefaultArg": true,
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:7Restart8HomeViewV012isOnboardingC6ActiveACSb_tcfc",
+          "mangledName": "$s7Restart8HomeViewV012isOnboardingC6ActiveACSb_tcfc",
+          "moduleName": "Restart",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
         },
         {
           "kind": "Constructor",

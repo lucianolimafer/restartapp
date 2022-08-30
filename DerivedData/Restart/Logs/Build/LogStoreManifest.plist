@@ -482,6 +482,40 @@
 			<key>uniqueIdentifier</key>
 			<string>968F6AFE-21BC-4EC1-A24A-ACBFD256DFE7</string>
 		</dict>
+		<key>9DB5C4B6-C046-47D9-9A07-F594576E0DCC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9DB5C4B6-C046-47D9-9A07-F594576E0DCC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Restart project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Restart</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews Restart</string>
+			<key>timeStartedRecording</key>
+			<real>683592754.90390694</real>
+			<key>timeStoppedRecording</key>
+			<real>683592756.22071004</real>
+			<key>title</key>
+			<string>Build for Previews Restart</string>
+			<key>uniqueIdentifier</key>
+			<string>9DB5C4B6-C046-47D9-9A07-F594576E0DCC</string>
+		</dict>
 		<key>A078E0DD-DDED-4EB2-B92F-92287EA332A0</key>
 		<dict>
 			<key>className</key>
@@ -515,6 +549,40 @@
 			<string>Build Restart</string>
 			<key>uniqueIdentifier</key>
 			<string>A078E0DD-DDED-4EB2-B92F-92287EA332A0</string>
+		</dict>
+		<key>ACC3FDE8-0C3B-4193-887D-99EF6B686192</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>ACC3FDE8-0C3B-4193-887D-99EF6B686192.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Restart project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Restart</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Restart</string>
+			<key>timeStartedRecording</key>
+			<real>683595051.92017102</real>
+			<key>timeStoppedRecording</key>
+			<real>683595052.64352</real>
+			<key>title</key>
+			<string>Build Restart</string>
+			<key>uniqueIdentifier</key>
+			<string>ACC3FDE8-0C3B-4193-887D-99EF6B686192</string>
 		</dict>
 		<key>C2224964-B4BD-462D-AB9B-959F1A58B0ED</key>
 		<dict>
