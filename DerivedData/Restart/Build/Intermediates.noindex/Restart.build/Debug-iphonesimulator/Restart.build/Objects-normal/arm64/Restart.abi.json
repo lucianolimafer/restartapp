@@ -363,6 +363,39 @@
         },
         {
           "kind": "Var",
+          "name": "_isAnimating",
+          "printedName": "_isAnimating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart15CircleGroupViewV12_isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s7Restart15CircleGroupViewV12_isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVySbGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [
@@ -884,6 +917,39 @@
         },
         {
           "kind": "Var",
+          "name": "_isAnimating",
+          "printedName": "_isAnimating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV12_isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s7Restart14OnboardingViewV12_isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySbGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [
@@ -1353,6 +1419,39 @@
         },
         {
           "kind": "Var",
+          "name": "_isAnimating",
+          "printedName": "_isAnimating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart8HomeViewV12_isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s7Restart8HomeViewV12_isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI5StateVySbGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [
@@ -1375,7 +1474,8 @@
           "mangledName": "$s7Restart8HomeViewV4bodyQrvp",
           "moduleName": "Restart",
           "declAttributes": [
-            "Custom"
+            "Custom",
+            "RawDocComment"
           ],
           "accessors": [
             {

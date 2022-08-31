@@ -551,6 +551,281 @@
         },
         {
           "kind": "Var",
+          "name": "isAnimating",
+          "printedName": "isAnimating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart15CircleGroupViewV11isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LLSbvp",
+          "mangledName": "$s7Restart15CircleGroupViewV11isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LLSbvp",
+          "moduleName": "Restart",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "AccessControl",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV11isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LLSbvg",
+              "mangledName": "$s7Restart15CircleGroupViewV11isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LLSbvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV11isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LLSbvs",
+              "mangledName": "$s7Restart15CircleGroupViewV11isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LLSbvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV11isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LLSbvM",
+              "mangledName": "$s7Restart15CircleGroupViewV11isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LLSbvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$isAnimating",
+          "printedName": "$isAnimating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart15CircleGroupViewV12$isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s7Restart15CircleGroupViewV12$isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI7BindingVySbGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV12$isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI7BindingVySbGvg",
+              "mangledName": "$s7Restart15CircleGroupViewV12$isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI7BindingVySbGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_isAnimating",
+          "printedName": "_isAnimating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart15CircleGroupViewV12_isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s7Restart15CircleGroupViewV12_isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVySbGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV12_isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVySbGvg",
+              "mangledName": "$s7Restart15CircleGroupViewV12_isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVySbGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV12_isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVySbGvs",
+              "mangledName": "$s7Restart15CircleGroupViewV12_isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVySbGvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV12_isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVySbGvM",
+              "mangledName": "$s7Restart15CircleGroupViewV12_isAnimating33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVySbGvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [
@@ -1662,6 +1937,281 @@
         },
         {
           "kind": "Var",
+          "name": "isAnimating",
+          "printedName": "isAnimating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV11isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALLSbvp",
+          "mangledName": "$s7Restart14OnboardingViewV11isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALLSbvp",
+          "moduleName": "Restart",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "AccessControl",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV11isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALLSbvg",
+              "mangledName": "$s7Restart14OnboardingViewV11isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALLSbvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV11isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALLSbvs",
+              "mangledName": "$s7Restart14OnboardingViewV11isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALLSbvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV11isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALLSbvM",
+              "mangledName": "$s7Restart14OnboardingViewV11isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALLSbvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$isAnimating",
+          "printedName": "$isAnimating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV12$isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s7Restart14OnboardingViewV12$isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySbGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12$isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySbGvg",
+              "mangledName": "$s7Restart14OnboardingViewV12$isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySbGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_isAnimating",
+          "printedName": "_isAnimating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV12_isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s7Restart14OnboardingViewV12_isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySbGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12_isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySbGvg",
+              "mangledName": "$s7Restart14OnboardingViewV12_isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySbGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12_isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySbGvs",
+              "mangledName": "$s7Restart14OnboardingViewV12_isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySbGvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12_isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySbGvM",
+              "mangledName": "$s7Restart14OnboardingViewV12_isAnimating33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySbGvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [
@@ -2240,6 +2790,281 @@
         },
         {
           "kind": "Var",
+          "name": "isAnimating",
+          "printedName": "isAnimating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart8HomeViewV11isAnimating33_45BE75091108FD5019533F56AD79F5DBLLSbvp",
+          "mangledName": "$s7Restart8HomeViewV11isAnimating33_45BE75091108FD5019533F56AD79F5DBLLSbvp",
+          "moduleName": "Restart",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "AccessControl",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV11isAnimating33_45BE75091108FD5019533F56AD79F5DBLLSbvg",
+              "mangledName": "$s7Restart8HomeViewV11isAnimating33_45BE75091108FD5019533F56AD79F5DBLLSbvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV11isAnimating33_45BE75091108FD5019533F56AD79F5DBLLSbvs",
+              "mangledName": "$s7Restart8HomeViewV11isAnimating33_45BE75091108FD5019533F56AD79F5DBLLSbvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV11isAnimating33_45BE75091108FD5019533F56AD79F5DBLLSbvM",
+              "mangledName": "$s7Restart8HomeViewV11isAnimating33_45BE75091108FD5019533F56AD79F5DBLLSbvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$isAnimating",
+          "printedName": "$isAnimating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart8HomeViewV12$isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s7Restart8HomeViewV12$isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI7BindingVySbGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV12$isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI7BindingVySbGvg",
+              "mangledName": "$s7Restart8HomeViewV12$isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI7BindingVySbGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_isAnimating",
+          "printedName": "_isAnimating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart8HomeViewV12_isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s7Restart8HomeViewV12_isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI5StateVySbGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV12_isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI5StateVySbGvg",
+              "mangledName": "$s7Restart8HomeViewV12_isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI5StateVySbGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV12_isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI5StateVySbGvs",
+              "mangledName": "$s7Restart8HomeViewV12_isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI5StateVySbGvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart8HomeViewV12_isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI5StateVySbGvM",
+              "mangledName": "$s7Restart8HomeViewV12_isAnimating33_45BE75091108FD5019533F56AD79F5DBLL7SwiftUI5StateVySbGvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [
@@ -2263,7 +3088,8 @@
           "moduleName": "Restart",
           "declAttributes": [
             "Custom",
-            "Dynamic"
+            "Dynamic",
+            "RawDocComment"
           ],
           "accessors": [
             {
