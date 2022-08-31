@@ -1,10 +1,11 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
-build_start_time: [1661909547, 936043977]
-build_end_time: [1661909548, 601495981]
+build_start_time: [1661910699, 515261173]
+build_end_time: [1661910700, 319216966]
 inputs:
   "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/RestartApp.swift": [1661896223, 693375110]
   "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/ContentView.swift": [1661898013, 359049558]
-  "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/HomeView.swift": [1661907507, 679561138]
-  "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/OnboardingView.swift": [1661909547, 646732807]
+  "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/HomeView.swift": [1661910375, 108742237]
+  "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/OnboardingView.swift": [1661910699, 327171325]
+  "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Utilities/AudioPlayer.swift": [1661910242, 673471927]
   "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Views/CircleGroupView.swift": [1661906928, 753978729]

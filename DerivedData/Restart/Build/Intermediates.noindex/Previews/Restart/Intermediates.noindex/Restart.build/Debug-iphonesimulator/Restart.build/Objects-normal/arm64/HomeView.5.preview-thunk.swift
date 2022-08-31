@@ -4,7 +4,7 @@ import SwiftUI
 
 extension HomeView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/HomeView.swift", line: 76)
+        #sourceLocation(file: "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/HomeView.swift", line: 77)
         __designTimeSelection(HomeView(), "#5939.[2].[0].property.[0].[0]")
     #sourceLocation()
     }
@@ -47,6 +47,7 @@ extension HomeView {
             
             __designTimeSelection(Button(action: {
                 __designTimeSelection(withAnimation {
+                    __designTimeSelection(playSound(soundFileName: __designTimeString("#5939.[1].[2].property.[0].[0].arg[1].value.[4].arg[0].value.[0].arg[0].value.[0].arg[0].value", fallback: "success"), type: __designTimeString("#5939.[1].[2].property.[0].[0].arg[1].value.[4].arg[0].value.[0].arg[0].value.[0].arg[1].value", fallback: "m4a")), "#5939.[1].[2].property.[0].[0].arg[1].value.[4].arg[0].value.[0].arg[0].value.[0]")
                     isOnboardingViewActive = true
                 }, "#5939.[1].[2].property.[0].[0].arg[1].value.[4].arg[0].value.[0]")
             }) {

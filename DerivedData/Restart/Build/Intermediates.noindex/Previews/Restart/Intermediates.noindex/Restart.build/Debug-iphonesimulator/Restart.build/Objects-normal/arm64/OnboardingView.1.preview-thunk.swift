@@ -4,7 +4,7 @@ import SwiftUI
 
 extension OnboardingView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/OnboardingView.swift", line: 181)
+        #sourceLocation(file: "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/OnboardingView.swift", line: 183)
         OnboardingView()
     #sourceLocation()
     }
@@ -144,7 +144,8 @@ extension OnboardingView {
                                 .onEnded { _ in
                                     withAnimation(Animation.easeOut(duration: __designTimeFloat("#5930.[1].[7].property.[0].[0].arg[0].value.[1].arg[1].value.[4].arg[0].value.[4].arg[0].value.[0].modifier[3].arg[0].value.modifier[1].arg[0].value.[0].arg[0].value.arg[0].value", fallback: 0.4))) {
                                         if buttonOffset > buttonWidth / 2 {
-                                            buttonOffset = buttonWidth - __designTimeInteger("#5930.[1].[7].property.[0].[0].arg[0].value.[1].arg[1].value.[4].arg[0].value.[4].arg[0].value.[0].modifier[3].arg[0].value.modifier[1].arg[0].value.[0].arg[1].value.[0].[0].[0].[0]", fallback: 80)
+                                            playSound(soundFileName: __designTimeString("#5930.[1].[7].property.[0].[0].arg[0].value.[1].arg[1].value.[4].arg[0].value.[4].arg[0].value.[0].modifier[3].arg[0].value.modifier[1].arg[0].value.[0].arg[1].value.[0].[0].[0].arg[0].value", fallback: "chimeup"), type: __designTimeString("#5930.[1].[7].property.[0].[0].arg[0].value.[1].arg[1].value.[4].arg[0].value.[4].arg[0].value.[0].modifier[3].arg[0].value.modifier[1].arg[0].value.[0].arg[1].value.[0].[0].[0].arg[1].value", fallback: ""))
+                                            buttonOffset = buttonWidth - __designTimeInteger("#5930.[1].[7].property.[0].[0].arg[0].value.[1].arg[1].value.[4].arg[0].value.[4].arg[0].value.[0].modifier[3].arg[0].value.modifier[1].arg[0].value.[0].arg[1].value.[0].[0].[1].[0]", fallback: 80)
                                             isOnboardingViewActive = false
                                         } else {
                                             buttonOffset = __designTimeInteger("#5930.[1].[7].property.[0].[0].arg[0].value.[1].arg[1].value.[4].arg[0].value.[4].arg[0].value.[0].modifier[3].arg[0].value.modifier[1].arg[0].value.[0].arg[1].value.[0].[1].[0].[0]", fallback: 0)
@@ -166,6 +167,7 @@ extension OnboardingView {
         .onAppear(perform: {
             isAnimating = true
         })
+        .preferredColorScheme(.dark)
     #sourceLocation()
     }
 }
