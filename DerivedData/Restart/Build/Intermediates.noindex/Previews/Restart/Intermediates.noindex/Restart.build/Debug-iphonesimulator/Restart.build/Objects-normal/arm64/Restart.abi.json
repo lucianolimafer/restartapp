@@ -1112,6 +1112,556 @@
         },
         {
           "kind": "Var",
+          "name": "buttonWidth",
+          "printedName": "buttonWidth",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV11buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALLSdvp",
+          "mangledName": "$s7Restart14OnboardingViewV11buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALLSdvp",
+          "moduleName": "Restart",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "AccessControl",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV11buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALLSdvg",
+              "mangledName": "$s7Restart14OnboardingViewV11buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALLSdvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV11buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALLSdvs",
+              "mangledName": "$s7Restart14OnboardingViewV11buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALLSdvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV11buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALLSdvM",
+              "mangledName": "$s7Restart14OnboardingViewV11buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALLSdvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$buttonWidth",
+          "printedName": "$buttonWidth",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Double>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV12$buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySdGvp",
+          "mangledName": "$s7Restart14OnboardingViewV12$buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySdGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Double>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12$buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySdGvg",
+              "mangledName": "$s7Restart14OnboardingViewV12$buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySdGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_buttonWidth",
+          "printedName": "_buttonWidth",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Double>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV12_buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvp",
+          "mangledName": "$s7Restart14OnboardingViewV12_buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Double>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12_buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvg",
+              "mangledName": "$s7Restart14OnboardingViewV12_buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Double>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12_buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvs",
+              "mangledName": "$s7Restart14OnboardingViewV12_buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12_buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvM",
+              "mangledName": "$s7Restart14OnboardingViewV12_buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "buttonOffset",
+          "printedName": "buttonOffset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV12buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s7Restart14OnboardingViewV12buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL12CoreGraphics7CGFloatVvp",
+          "moduleName": "Restart",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "AccessControl",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s7Restart14OnboardingViewV12buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL12CoreGraphics7CGFloatVvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s7Restart14OnboardingViewV12buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL12CoreGraphics7CGFloatVvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s7Restart14OnboardingViewV12buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL12CoreGraphics7CGFloatVvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$buttonOffset",
+          "printedName": "$buttonOffset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<CoreGraphics.CGFloat>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV13$buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvp",
+          "mangledName": "$s7Restart14OnboardingViewV13$buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<CoreGraphics.CGFloat>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CGFloat",
+                      "printedName": "CoreGraphics.CGFloat",
+                      "usr": "s:12CoreGraphics7CGFloatV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV13$buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvg",
+              "mangledName": "$s7Restart14OnboardingViewV13$buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_buttonOffset",
+          "printedName": "_buttonOffset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<CoreGraphics.CGFloat>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV13_buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvp",
+          "mangledName": "$s7Restart14OnboardingViewV13_buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<CoreGraphics.CGFloat>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CGFloat",
+                      "printedName": "CoreGraphics.CGFloat",
+                      "usr": "s:12CoreGraphics7CGFloatV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV13_buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvg",
+              "mangledName": "$s7Restart14OnboardingViewV13_buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<CoreGraphics.CGFloat>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CGFloat",
+                      "printedName": "CoreGraphics.CGFloat",
+                      "usr": "s:12CoreGraphics7CGFloatV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV13_buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvs",
+              "mangledName": "$s7Restart14OnboardingViewV13_buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV13_buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvM",
+              "mangledName": "$s7Restart14OnboardingViewV13_buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [

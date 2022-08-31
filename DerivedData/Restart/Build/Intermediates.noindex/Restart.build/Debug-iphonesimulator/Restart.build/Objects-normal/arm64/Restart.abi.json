@@ -818,6 +818,72 @@
         },
         {
           "kind": "Var",
+          "name": "_buttonWidth",
+          "printedName": "_buttonWidth",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Double>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV12_buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvp",
+          "mangledName": "$s7Restart14OnboardingViewV12_buttonWidth33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "_buttonOffset",
+          "printedName": "_buttonOffset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<CoreGraphics.CGFloat>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV13_buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvp",
+          "mangledName": "$s7Restart14OnboardingViewV13_buttonOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [
