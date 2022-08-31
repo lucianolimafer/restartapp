@@ -82,7 +82,7 @@ struct OnboardingView: View {
                                     
                                     withAnimation(.linear(duration: 0.25)) {
                                         indicatorOpacity = 1
-                                        textTitle = "Compartile."
+                                        textTitle = "Compartilhe."
                                     }
                                 }
                         )//: Gesture
