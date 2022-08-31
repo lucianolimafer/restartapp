@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1639ED1B9593465BB00091F52A8C7B756E08CDF5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1639ED1B9593465BB00091F52A8C7B756E08CDF5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B0183693-A7E8-4724-A47D-BB4A9A41127E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1639ED1B9593465BB00091F52A8C7B756E08CDF5" : "Restart\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Restart",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Restart.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lucianolimafer\/restartapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1639ED1B9593465BB00091F52A8C7B756E08CDF5"
+    }
+  ]
+}

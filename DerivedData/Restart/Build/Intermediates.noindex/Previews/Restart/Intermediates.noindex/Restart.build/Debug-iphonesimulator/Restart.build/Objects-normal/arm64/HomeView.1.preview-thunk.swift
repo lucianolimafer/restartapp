@@ -4,7 +4,7 @@ import SwiftUI
 
 extension HomeView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/HomeView.swift", line: 28)
+        #sourceLocation(file: "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/HomeView.swift", line: 60)
         HomeView()
     #sourceLocation()
     }
@@ -12,16 +12,47 @@ extension HomeView_Previews {
 
 extension HomeView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/HomeView.swift", line: 13)
-        VStack(spacing: __designTimeInteger("#5939.[1].[0].property.[0].[0].arg[0].value", fallback: 20)) {
-            Text(__designTimeString("#5939.[1].[0].property.[0].[0].arg[1].value.[0].arg[0].value", fallback: "Home"))
-                .font(.largeTitle)
+        #sourceLocation(file: "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/HomeView.swift", line: 14)
+        VStack(spacing: __designTimeInteger("#5939.[1].[1].property.[0].[0].arg[0].value", fallback: 20)) {
+            //MARK: - Header
+            
+            Spacer()
+            
+            ZStack {
+                CircleGroupView(ShapeColor: .gray, ShapeOpacity: __designTimeFloat("#5939.[1].[1].property.[0].[0].arg[1].value.[1].arg[0].value.[0].arg[1].value", fallback: 0.2))
+                
+                Image(__designTimeString("#5939.[1].[1].property.[0].[0].arg[1].value.[1].arg[0].value.[1].arg[0].value", fallback: "character-2"))
+                    .resizable()
+                    .scaledToFit()
+                .padding()
+            }
+            
+            //MARK: - Center
+            
+            Text(__designTimeString("#5939.[1].[1].property.[0].[0].arg[1].value.[2].arg[0].value", fallback: "O tempo que leva à maestria depende da intensidade do nosso foco."))
+                .font(.title3)
+                .fontWeight(.light)
+                .foregroundColor(.secondary)
+                .multilineTextAlignment(.center)
+                .padding()
+            
+            //MARK: - Footer
+            
+            Spacer()
             
             Button(action: {
-                // Some action
+                isOnboardingViewActive = true
             }) {
-                Text(__designTimeString("#5939.[1].[0].property.[0].[0].arg[1].value.[1].arg[1].value.[0].arg[0].value", fallback: "Restart"))
-            }
+                Image(systemName: __designTimeString("#5939.[1].[1].property.[0].[0].arg[1].value.[4].arg[1].value.[0].arg[0].value", fallback: "arrow.triangle.2.circlepath.circle.fill"))
+                    .imageScale(.large)
+                
+                Text(__designTimeString("#5939.[1].[1].property.[0].[0].arg[1].value.[4].arg[1].value.[1].arg[0].value", fallback: "Restart"))
+                    .font(.system(.title3, design: .rounded))
+                    .fontWeight(.bold)
+            }//: Button
+            .buttonStyle(.borderedProminent)
+            .buttonBorderShape(.capsule)
+            .controlSize(.large)
         } //: VSTACK
     #sourceLocation()
     }

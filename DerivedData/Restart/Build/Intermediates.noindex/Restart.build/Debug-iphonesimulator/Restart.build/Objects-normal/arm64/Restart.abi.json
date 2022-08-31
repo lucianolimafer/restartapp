@@ -15,6 +15,631 @@
     },
     {
       "kind": "TypeDecl",
+      "name": "CircleGroupView",
+      "printedName": "CircleGroupView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "ShapeColor",
+          "printedName": "ShapeColor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Color",
+              "printedName": "SwiftUI.Color",
+              "usr": "s:7SwiftUI5ColorV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart15CircleGroupViewV10ShapeColor7SwiftUI0F0Vvp",
+          "mangledName": "$s7Restart15CircleGroupViewV10ShapeColor7SwiftUI0F0Vvp",
+          "moduleName": "Restart",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Color",
+                  "printedName": "SwiftUI.Color",
+                  "usr": "s:7SwiftUI5ColorV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV10ShapeColor7SwiftUI0F0Vvg",
+              "mangledName": "$s7Restart15CircleGroupViewV10ShapeColor7SwiftUI0F0Vvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Color",
+                  "printedName": "SwiftUI.Color",
+                  "usr": "s:7SwiftUI5ColorV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV10ShapeColor7SwiftUI0F0Vvs",
+              "mangledName": "$s7Restart15CircleGroupViewV10ShapeColor7SwiftUI0F0Vvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV10ShapeColor7SwiftUI0F0VvM",
+              "mangledName": "$s7Restart15CircleGroupViewV10ShapeColor7SwiftUI0F0VvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$ShapeColor",
+          "printedName": "$ShapeColor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<SwiftUI.Color>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Color",
+                  "printedName": "SwiftUI.Color",
+                  "usr": "s:7SwiftUI5ColorV"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart15CircleGroupViewV11$ShapeColor7SwiftUI7BindingVyAE0F0VGvp",
+          "mangledName": "$s7Restart15CircleGroupViewV11$ShapeColor7SwiftUI7BindingVyAE0F0VGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<SwiftUI.Color>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Color",
+                      "printedName": "SwiftUI.Color",
+                      "usr": "s:7SwiftUI5ColorV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV11$ShapeColor7SwiftUI7BindingVyAE0F0VGvg",
+              "mangledName": "$s7Restart15CircleGroupViewV11$ShapeColor7SwiftUI7BindingVyAE0F0VGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_ShapeColor",
+          "printedName": "_ShapeColor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<SwiftUI.Color>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Color",
+                  "printedName": "SwiftUI.Color",
+                  "usr": "s:7SwiftUI5ColorV"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart15CircleGroupViewV11_ShapeColor33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVyAF0F0VGvp",
+          "mangledName": "$s7Restart15CircleGroupViewV11_ShapeColor33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVyAF0F0VGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "ShapeOpacity",
+          "printedName": "ShapeOpacity",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart15CircleGroupViewV12ShapeOpacitySdvp",
+          "mangledName": "$s7Restart15CircleGroupViewV12ShapeOpacitySdvp",
+          "moduleName": "Restart",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV12ShapeOpacitySdvg",
+              "mangledName": "$s7Restart15CircleGroupViewV12ShapeOpacitySdvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV12ShapeOpacitySdvs",
+              "mangledName": "$s7Restart15CircleGroupViewV12ShapeOpacitySdvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV12ShapeOpacitySdvM",
+              "mangledName": "$s7Restart15CircleGroupViewV12ShapeOpacitySdvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$ShapeOpacity",
+          "printedName": "$ShapeOpacity",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Double>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart15CircleGroupViewV13$ShapeOpacity7SwiftUI7BindingVySdGvp",
+          "mangledName": "$s7Restart15CircleGroupViewV13$ShapeOpacity7SwiftUI7BindingVySdGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Double>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV13$ShapeOpacity7SwiftUI7BindingVySdGvg",
+              "mangledName": "$s7Restart15CircleGroupViewV13$ShapeOpacity7SwiftUI7BindingVySdGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_ShapeOpacity",
+          "printedName": "_ShapeOpacity",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Double>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart15CircleGroupViewV13_ShapeOpacity33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVySdGvp",
+          "mangledName": "$s7Restart15CircleGroupViewV13_ShapeOpacity33_C92F7D030FDC47D6D1FC9EAB785E5152LL7SwiftUI5StateVySdGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart15CircleGroupViewV4bodyQrvp",
+          "mangledName": "$s7Restart15CircleGroupViewV4bodyQrvp",
+          "moduleName": "Restart",
+          "declAttributes": [
+            "Custom",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart15CircleGroupViewV4bodyQrvg",
+              "mangledName": "$s7Restart15CircleGroupViewV4bodyQrvg",
+              "moduleName": "Restart",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(ShapeColor:ShapeOpacity:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CircleGroupView",
+              "printedName": "Restart.CircleGroupView",
+              "usr": "s:7Restart15CircleGroupViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Color",
+              "printedName": "SwiftUI.Color",
+              "usr": "s:7SwiftUI5ColorV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:7Restart15CircleGroupViewV10ShapeColor0E7OpacityAC7SwiftUI0F0V_Sdtcfc",
+          "mangledName": "$s7Restart15CircleGroupViewV10ShapeColor0E7OpacityAC7SwiftUI0F0V_Sdtcfc",
+          "moduleName": "Restart",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:7Restart15CircleGroupViewV",
+      "mangledName": "$s7Restart15CircleGroupViewV",
+      "moduleName": "Restart",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CircleGroupView_Previews",
+      "printedName": "CircleGroupView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart24CircleGroupView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s7Restart24CircleGroupView_PreviewsV8previewsQrvpZ",
+          "moduleName": "Restart",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart24CircleGroupView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s7Restart24CircleGroupView_PreviewsV8previewsQrvgZ",
+              "moduleName": "Restart",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CircleGroupView_Previews",
+              "printedName": "Restart.CircleGroupView_Previews",
+              "usr": "s:7Restart24CircleGroupView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:7Restart24CircleGroupView_PreviewsVACycfc",
+          "mangledName": "$s7Restart24CircleGroupView_PreviewsVACycfc",
+          "moduleName": "Restart",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:7Restart24CircleGroupView_PreviewsV",
+      "mangledName": "$s7Restart24CircleGroupView_PreviewsV",
+      "moduleName": "Restart",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Restart",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
       "name": "OnboardingView",
       "printedName": "OnboardingView",
       "children": [

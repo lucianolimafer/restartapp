@@ -4,7 +4,7 @@ import SwiftUI
 
 extension OnboardingView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/OnboardingView.swift", line: 115)
+        #sourceLocation(file: "/Users/lucianolimafer/Documents/Restart-App/Students/Restart/Restart/Screens/OnboardingView.swift", line: 108)
         __designTimeSelection(OnboardingView(), "#5930.[2].[0].property.[0].[0]")
     #sourceLocation()
     }
@@ -39,14 +39,7 @@ extension OnboardingView {
                 //MARK: - Center
                 
                 __designTimeSelection(ZStack {
-                    __designTimeSelection(ZStack {
-                        __designTimeSelection(Circle()
-                            .stroke(.white.opacity(__designTimeFloat("#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0].arg[0].value.[0].modifier[0].arg[0].value.modifier[0].arg[0].value", fallback: 0.2)), lineWidth: __designTimeInteger("#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0].arg[0].value.[0].modifier[0].arg[1].value", fallback: 40))
-                            .frame(width: __designTimeInteger("#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0].arg[0].value.[0].modifier[1].arg[0].value", fallback: 260), height: __designTimeInteger("#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0].arg[0].value.[0].modifier[1].arg[1].value", fallback: 260), alignment: .center), "#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0].arg[0].value.[0]")
-                        __designTimeSelection(Circle()
-                            .stroke(.white.opacity(__designTimeFloat("#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0].arg[0].value.[1].modifier[0].arg[0].value.modifier[0].arg[0].value", fallback: 0.2)), lineWidth: __designTimeInteger("#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0].arg[0].value.[1].modifier[0].arg[1].value", fallback: 80))
-                            .frame(width: __designTimeInteger("#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0].arg[0].value.[1].modifier[1].arg[0].value", fallback: 260), height: __designTimeInteger("#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0].arg[0].value.[1].modifier[1].arg[1].value", fallback: 260), alignment: .center), "#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0].arg[0].value.[1]")
-                    }, "#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0]") //: ZSTACK
+                    __designTimeSelection(CircleGroupView(ShapeColor: .white, ShapeOpacity: __designTimeFloat("#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0].arg[1].value", fallback: 0.2)), "#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[0]")
                     
                     __designTimeSelection(Image(__designTimeString("#5930.[1].[1].property.[0].[0].arg[0].value.[1].arg[1].value.[2].arg[0].value.[1].arg[0].value", fallback: "character-1"))
                         .resizable()
