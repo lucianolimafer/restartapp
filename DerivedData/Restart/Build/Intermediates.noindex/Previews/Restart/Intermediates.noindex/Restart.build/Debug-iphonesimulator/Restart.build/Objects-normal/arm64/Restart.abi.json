@@ -2212,6 +2212,831 @@
         },
         {
           "kind": "Var",
+          "name": "imageOffset",
+          "printedName": "imageOffset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGSize",
+              "printedName": "CoreGraphics.CGSize",
+              "usr": "c:@S@CGSize"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV11imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALLSo6CGSizeVvp",
+          "mangledName": "$s7Restart14OnboardingViewV11imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALLSo6CGSizeVvp",
+          "moduleName": "Restart",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "AccessControl",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV11imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALLSo6CGSizeVvg",
+              "mangledName": "$s7Restart14OnboardingViewV11imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALLSo6CGSizeVvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV11imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALLSo6CGSizeVvs",
+              "mangledName": "$s7Restart14OnboardingViewV11imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALLSo6CGSizeVvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV11imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALLSo6CGSizeVvM",
+              "mangledName": "$s7Restart14OnboardingViewV11imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALLSo6CGSizeVvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$imageOffset",
+          "printedName": "$imageOffset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<CoreGraphics.CGSize>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV12$imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySo6CGSizeVGvp",
+          "mangledName": "$s7Restart14OnboardingViewV12$imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySo6CGSizeVGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<CoreGraphics.CGSize>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CGSize",
+                      "printedName": "CoreGraphics.CGSize",
+                      "usr": "c:@S@CGSize"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12$imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySo6CGSizeVGvg",
+              "mangledName": "$s7Restart14OnboardingViewV12$imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySo6CGSizeVGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_imageOffset",
+          "printedName": "_imageOffset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<CoreGraphics.CGSize>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV12_imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySo6CGSizeVGvp",
+          "mangledName": "$s7Restart14OnboardingViewV12_imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySo6CGSizeVGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<CoreGraphics.CGSize>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CGSize",
+                      "printedName": "CoreGraphics.CGSize",
+                      "usr": "c:@S@CGSize"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12_imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySo6CGSizeVGvg",
+              "mangledName": "$s7Restart14OnboardingViewV12_imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySo6CGSizeVGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<CoreGraphics.CGSize>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CGSize",
+                      "printedName": "CoreGraphics.CGSize",
+                      "usr": "c:@S@CGSize"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12_imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySo6CGSizeVGvs",
+              "mangledName": "$s7Restart14OnboardingViewV12_imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySo6CGSizeVGvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV12_imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySo6CGSizeVGvM",
+              "mangledName": "$s7Restart14OnboardingViewV12_imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySo6CGSizeVGvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "indicatorOpacity",
+          "printedName": "indicatorOpacity",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV16indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALLSdvp",
+          "mangledName": "$s7Restart14OnboardingViewV16indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALLSdvp",
+          "moduleName": "Restart",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "AccessControl",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV16indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALLSdvg",
+              "mangledName": "$s7Restart14OnboardingViewV16indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALLSdvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV16indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALLSdvs",
+              "mangledName": "$s7Restart14OnboardingViewV16indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALLSdvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV16indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALLSdvM",
+              "mangledName": "$s7Restart14OnboardingViewV16indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALLSdvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$indicatorOpacity",
+          "printedName": "$indicatorOpacity",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Double>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV17$indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySdGvp",
+          "mangledName": "$s7Restart14OnboardingViewV17$indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySdGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Double>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV17$indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySdGvg",
+              "mangledName": "$s7Restart14OnboardingViewV17$indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySdGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_indicatorOpacity",
+          "printedName": "_indicatorOpacity",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Double>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV17_indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvp",
+          "mangledName": "$s7Restart14OnboardingViewV17_indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Double>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV17_indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvg",
+              "mangledName": "$s7Restart14OnboardingViewV17_indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Double>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV17_indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvs",
+              "mangledName": "$s7Restart14OnboardingViewV17_indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV17_indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvM",
+              "mangledName": "$s7Restart14OnboardingViewV17_indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "textTitle",
+          "printedName": "textTitle",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV9textTitle33_32E7ADA55EACFD0DD944D1671401D7CALLSSvp",
+          "mangledName": "$s7Restart14OnboardingViewV9textTitle33_32E7ADA55EACFD0DD944D1671401D7CALLSSvp",
+          "moduleName": "Restart",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "AccessControl",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV9textTitle33_32E7ADA55EACFD0DD944D1671401D7CALLSSvg",
+              "mangledName": "$s7Restart14OnboardingViewV9textTitle33_32E7ADA55EACFD0DD944D1671401D7CALLSSvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV9textTitle33_32E7ADA55EACFD0DD944D1671401D7CALLSSvs",
+              "mangledName": "$s7Restart14OnboardingViewV9textTitle33_32E7ADA55EACFD0DD944D1671401D7CALLSSvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV9textTitle33_32E7ADA55EACFD0DD944D1671401D7CALLSSvM",
+              "mangledName": "$s7Restart14OnboardingViewV9textTitle33_32E7ADA55EACFD0DD944D1671401D7CALLSSvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$textTitle",
+          "printedName": "$textTitle",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV10$textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySSGvp",
+          "mangledName": "$s7Restart14OnboardingViewV10$textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySSGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV10$textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySSGvg",
+              "mangledName": "$s7Restart14OnboardingViewV10$textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI7BindingVySSGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_textTitle",
+          "printedName": "_textTitle",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV10_textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySSGvp",
+          "mangledName": "$s7Restart14OnboardingViewV10_textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySSGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV10_textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySSGvg",
+              "mangledName": "$s7Restart14OnboardingViewV10_textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySSGvg",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV10_textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySSGvs",
+              "mangledName": "$s7Restart14OnboardingViewV10_textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySSGvs",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7Restart14OnboardingViewV10_textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySSGvM",
+              "mangledName": "$s7Restart14OnboardingViewV10_textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySSGvM",
+              "moduleName": "Restart",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [

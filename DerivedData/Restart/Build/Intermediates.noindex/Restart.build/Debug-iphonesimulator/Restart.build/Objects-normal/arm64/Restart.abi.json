@@ -950,6 +950,105 @@
         },
         {
           "kind": "Var",
+          "name": "_imageOffset",
+          "printedName": "_imageOffset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<CoreGraphics.CGSize>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV12_imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySo6CGSizeVGvp",
+          "mangledName": "$s7Restart14OnboardingViewV12_imageOffset33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySo6CGSizeVGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "_indicatorOpacity",
+          "printedName": "_indicatorOpacity",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Double>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV17_indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvp",
+          "mangledName": "$s7Restart14OnboardingViewV17_indicatorOpacity33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySdGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "_textTitle",
+          "printedName": "_textTitle",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7Restart14OnboardingViewV10_textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySSGvp",
+          "mangledName": "$s7Restart14OnboardingViewV10_textTitle33_32E7ADA55EACFD0DD944D1671401D7CALL7SwiftUI5StateVySSGvp",
+          "moduleName": "Restart",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [
